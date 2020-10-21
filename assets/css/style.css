@@ -1,0 +1,79 @@
+a,
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.wrap {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section p {
+    line-height: 1.5em;
+}
+
+.subtitle__color {
+    color: rgb(84, 182, 84);
+}
+
+.nav {
+    position: relative;
+}
+
+.nav__options,
+.nav__subtext,
+.nav__time {
+    position: absolute;
+    left: 10px;
+}
+
+.nav__options {
+    top: 16%;
+    line-height: 1.2em;
+    font-size: 0.9em;
+}
+
+.nav__subtext {
+    bottom: 30%;
+    color: white;
+    font-size: 12px;
+}
+
+.nav__time {
+    bottom: 17%;
+    color: rgb(32, 32, 121);
+    font-size: 14px;
+}
+
+.nav__options__item a {
+    color: rgb(84, 182, 84);
+}
+
+.nav__options__item a:hover {
+    color: green;
+}
+
+.media {
+    position: relative;
+    height: 40px;
+}
+
+.media img {
+    position: absolute;
+    right: 0;
+    width: 40px;
+}
+
+.media img:nth-child(1) {
+    right: 40px;
+    width: 40px;
+}
+
+#test {
+    /* background-image: url("../../images/2016-11-22_KV-N\ ISLAND\ MILK.jpg"); */
+    max-height: 406.36px;
+    /* max-width: 100%; */
+    /* object-fit:cover */
+    
+}
