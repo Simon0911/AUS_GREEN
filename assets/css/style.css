@@ -34,6 +34,28 @@ section p {
     font-size: 0.9em;
 }
 
+@media screen and (max-width:768px) {
+    .nav__options {
+        display: flex;
+
+    }
+
+    .nav__options li {
+        margin: 0 10px;
+        font-size: 0.9em;
+    }
+
+    .nav__options li:nth-child(1) {
+        /* left: 0; */
+        margin-left: 0;
+    }
+
+    .nav__subtext,
+    .nav__time {
+        display: none;
+    }
+}
+
 .nav__subtext {
     bottom: 30%;
     color: white;
@@ -54,6 +76,16 @@ section p {
     color: green;
 }
 
+.section__middle__img {
+    height: 426.36px;
+}
+
+@media screen and (max-width:992px) {
+    .section__middle__img {
+        height: auto;
+    }
+}
+
 .media {
     position: relative;
     height: 40px;
@@ -70,10 +102,8 @@ section p {
     width: 40px;
 }
 
-#test {
-    /* background-image: url("../../images/2016-11-22_KV-N\ ISLAND\ MILK.jpg"); */
-    max-height: 406.36px;
-    /* max-width: 100%; */
-    /* object-fit:cover */
-    
+@media screen and (max-width:420px) {
+    #footer {
+        display: block !important;
+    }
 }
